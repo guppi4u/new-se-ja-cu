@@ -33,9 +33,9 @@ jobs:
     # Step 4: Check Java syntax by compiling the code
     - name: Check Java syntax
       run: mvn compile
-      working-directory: ./new-se-ja-cu  # Adjust if your pom.xml is in a different directory
+      working-directory: new-se-ja-cu  # Adjust if your pom.xml is in a different directory
 
     # Step 5: Run Selenium tests in headless mode
     - name: Run Selenium tests in headless mode
       run: mvn test -Dselenium.headless=true
-      working-directory: ./new-se-ja-cu  # Adjust if your pom.xml is in a different directory
+      working-directory: new-se-ja-cu  # Adjust if your pom.xml is in a different directory
