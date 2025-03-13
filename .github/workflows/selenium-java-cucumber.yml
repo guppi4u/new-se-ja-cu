@@ -3,7 +3,7 @@ name: Run Selenium Java Cucumber Tests
 on:
   push:
     branches:
-      - master  # Trigger this workflow on push to the master branch
+      - main  # Trigger this workflow on push to the master branch
 
 jobs:
   build:
