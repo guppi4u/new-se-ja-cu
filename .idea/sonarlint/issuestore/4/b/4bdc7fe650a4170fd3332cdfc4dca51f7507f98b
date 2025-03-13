@@ -1,0 +1,7 @@
+
+_
+java:S1854,"=Remove this useless assignment to local variable "logoutLnk".(œ·şÿÿÿÿ8â¿³Ì×2
+P
+java:S1481,".Remove this unused "logoutLnk" local variable.(œ·şÿÿÿÿ8ä¿³Ì×2
+G	java:S106-"+Replace this use of System.out by a logger.(»õ”8å¿³Ì×2
+L	java:S106/"+Replace this use of System.out by a logger.(Ş¦ïÜüÿÿÿÿ8ç¿³Ì×2

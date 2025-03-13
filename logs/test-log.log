@@ -1,0 +1,87 @@
+2025-03-13 15:51:18 INFO  LoginStepDef:55 - ULR Opened
+2025-03-13 15:51:19 INFO  LoginStepDef:63 - Username and password entered
+2025-03-13 15:51:19 INFO  UserRegistrationStepDef:61 - ULR Opened
+2025-03-13 15:51:20 INFO  UserRegistrationStepDef:67 - Name entered
+2025-03-13 15:51:20 INFO  UserRegistrationStepDef:72 - Email entered
+2025-03-13 15:51:20 INFO  SigninStepDef:60 - ULR Opened
+2025-03-13 15:51:22 INFO  UserRegistrationStepDef:83 - In Registration page
+2025-03-13 15:51:22 INFO  UserRegistrationStepDef:88 - Title clicked
+2025-03-13 15:51:22 INFO  UserRegistrationStepDef:93 - Password entered
+2025-03-13 15:51:22 INFO  SigninStepDef:66 - SignUp link clicked
+2025-03-13 15:51:22 INFO  SigninStepDef:73 - Username entered
+2025-03-13 15:51:22 INFO  SigninStepDef:79 - Password entered
+2025-03-13 15:51:22 INFO  UserRegistrationStepDef:100 - Dob selected
+2025-03-13 15:51:23 INFO  UserRegistrationStepDef:105 - Firstname entered
+2025-03-13 15:51:23 INFO  UserRegistrationStepDef:110 - Lastname entered
+2025-03-13 15:51:23 INFO  UserRegistrationStepDef:115 - Company entered
+2025-03-13 15:51:23 INFO  LoginStepDef:69 - Login button clicked
+2025-03-13 15:51:23 INFO  LoginStepDef:74 - Checking for logout link
+2025-03-13 15:51:23 INFO  UserRegistrationStepDef:120 - Address entered
+2025-03-13 15:51:23 INFO  UserRegistrationStepDef:125 - country_ entered
+2025-03-13 15:51:23 INFO  UserRegistrationStepDef:130 - state  entered
+2025-03-13 15:51:23 INFO  UserRegistrationStepDef:135 - city entered
+2025-03-13 15:51:24 INFO  UserRegistrationStepDef:140 - zipcode entered
+2025-03-13 15:51:24 INFO  UserRegistrationStepDef:145 - mobilenumber entered
+2025-03-13 15:51:24 INFO  SigninStepDef:85 - Click singup button
+2025-03-13 15:51:24 INFO  SigninStepDef:91 - Title Captured
+2025-03-13 15:51:24 INFO  SigninStepDef:94 - Assertion done one page
+2025-03-13 15:51:25 INFO  UserRegistrationStepDef:150 - Create account button clicked
+2025-03-13 15:51:25 INFO  UserRegistrationStepDef:156 - Acc creation successfull
+2025-03-13 16:41:39 INFO  LoginStepDef:55 - ULR Opened
+2025-03-13 16:41:39 INFO  LoginStepDef:63 - Username and password entered
+2025-03-13 16:41:39 INFO  UserRegistrationStepDef:61 - ULR Opened
+2025-03-13 16:41:40 INFO  UserRegistrationStepDef:67 - Name entered
+2025-03-13 16:41:40 INFO  SigninStepDef:60 - ULR Opened
+2025-03-13 16:41:40 INFO  UserRegistrationStepDef:72 - Email entered
+2025-03-13 16:41:42 INFO  SigninStepDef:66 - SignUp link clicked
+2025-03-13 16:41:42 INFO  UserRegistrationStepDef:83 - In Registration page
+2025-03-13 16:41:42 INFO  SigninStepDef:73 - Username entered
+2025-03-13 16:41:42 INFO  UserRegistrationStepDef:88 - Title clicked
+2025-03-13 16:41:42 INFO  SigninStepDef:79 - Password entered
+2025-03-13 16:41:42 INFO  UserRegistrationStepDef:93 - Password entered
+2025-03-13 16:41:43 INFO  LoginStepDef:69 - Login button clicked
+2025-03-13 16:41:43 INFO  LoginStepDef:74 - Checking for logout link
+2025-03-13 16:41:43 INFO  UserRegistrationStepDef:100 - Dob selected
+2025-03-13 16:41:43 INFO  UserRegistrationStepDef:105 - Firstname entered
+2025-03-13 16:41:43 INFO  UserRegistrationStepDef:110 - Lastname entered
+2025-03-13 16:41:43 INFO  UserRegistrationStepDef:115 - Company entered
+2025-03-13 16:41:43 INFO  UserRegistrationStepDef:120 - Address entered
+2025-03-13 16:41:43 INFO  UserRegistrationStepDef:125 - country_ entered
+2025-03-13 16:41:43 INFO  UserRegistrationStepDef:130 - state  entered
+2025-03-13 16:41:44 INFO  SigninStepDef:85 - Click singup button
+2025-03-13 16:41:44 INFO  SigninStepDef:91 - Title Captured
+2025-03-13 16:41:44 INFO  SigninStepDef:94 - Assertion done one page
+2025-03-13 16:41:44 INFO  UserRegistrationStepDef:135 - city entered
+2025-03-13 16:41:44 INFO  UserRegistrationStepDef:140 - zipcode entered
+2025-03-13 16:41:44 INFO  UserRegistrationStepDef:145 - mobilenumber entered
+2025-03-13 16:41:46 INFO  UserRegistrationStepDef:150 - Create account button clicked
+2025-03-13 16:41:46 INFO  UserRegistrationStepDef:156 - Acc creation successfull
+2025-03-13 17:19:26 INFO  LoginStepDef:55 - ULR Opened
+2025-03-13 17:19:26 INFO  SigninStepDef:60 - ULR Opened
+2025-03-13 17:19:26 INFO  UserRegistrationStepDef:61 - ULR Opened
+2025-03-13 17:19:26 INFO  LoginStepDef:63 - Username and password entered
+2025-03-13 17:19:26 INFO  UserRegistrationStepDef:67 - Name entered
+2025-03-13 17:19:26 INFO  UserRegistrationStepDef:72 - Email entered
+2025-03-13 17:19:27 INFO  SigninStepDef:66 - SignUp link clicked
+2025-03-13 17:19:27 INFO  SigninStepDef:73 - Username entered
+2025-03-13 17:19:27 INFO  SigninStepDef:79 - Password entered
+2025-03-13 17:19:28 INFO  UserRegistrationStepDef:83 - In Registration page
+2025-03-13 17:19:28 INFO  UserRegistrationStepDef:88 - Title clicked
+2025-03-13 17:19:28 INFO  UserRegistrationStepDef:93 - Password entered
+2025-03-13 17:19:28 INFO  UserRegistrationStepDef:100 - Dob selected
+2025-03-13 17:19:28 INFO  UserRegistrationStepDef:105 - Firstname entered
+2025-03-13 17:19:28 INFO  LoginStepDef:69 - Login button clicked
+2025-03-13 17:19:28 INFO  LoginStepDef:74 - Checking for logout link
+2025-03-13 17:19:28 INFO  UserRegistrationStepDef:110 - Lastname entered
+2025-03-13 17:19:29 INFO  UserRegistrationStepDef:115 - Company entered
+2025-03-13 17:19:29 INFO  UserRegistrationStepDef:120 - Address entered
+2025-03-13 17:19:29 INFO  UserRegistrationStepDef:125 - country_ entered
+2025-03-13 17:19:29 INFO  SigninStepDef:85 - Click singup button
+2025-03-13 17:19:29 INFO  SigninStepDef:91 - Title Captured
+2025-03-13 17:19:29 INFO  SigninStepDef:94 - Assertion done one page
+2025-03-13 17:19:29 INFO  UserRegistrationStepDef:130 - state  entered
+2025-03-13 17:19:29 INFO  UserRegistrationStepDef:135 - city entered
+2025-03-13 17:19:29 INFO  UserRegistrationStepDef:140 - zipcode entered
+2025-03-13 17:19:29 INFO  UserRegistrationStepDef:145 - mobilenumber entered
+2025-03-13 17:19:31 INFO  UserRegistrationStepDef:150 - Create account button clicked
+2025-03-13 17:19:31 INFO  UserRegistrationStepDef:156 - Acc creation successfull
