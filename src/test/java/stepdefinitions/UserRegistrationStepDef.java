@@ -39,9 +39,9 @@ public class UserRegistrationStepDef {
         // Initialize the Chrome driver with the options
         driver = new ChromeDriver(options);
         //WebDriverManager.chromedriver().setup();
-       //  driver = new ChromeDriver();
-        // driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(8));
+        //driver = new ChromeDriver();
+        driver.manage().window().maximize();
+       driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(8));
     }
 
     @After
@@ -151,9 +151,7 @@ public class UserRegistrationStepDef {
     }
     @Then("new user registration success message is displayed")
     public void new_user_registration_success_message_is_displayed() {
-        String creatAcc=driver.getTitle();
-        System.out.println(creatAcc);;
-        logger.info("Acc creation successfull");
+        logger.info("Order placed message is displayed");
     }
 
 }

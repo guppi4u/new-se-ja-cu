@@ -33,7 +33,7 @@ public class LoginStepDef {
         options.addArguments("--window-size=1920x1080");
 
         // Initialize the Chrome driver with the options
-         driver = new ChromeDriver(options);
+        driver = new ChromeDriver(options);
         //WebDriverManager.chromedriver().setup();
        // driver = new ChromeDriver();
         driver.manage().window().maximize();
