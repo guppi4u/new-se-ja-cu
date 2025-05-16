@@ -47,7 +47,7 @@ public class ProductcheckoutStepDef {
         }
     }
 
-    @Given("I launch application url and watch")
+    @Given("^I launch application url and watch$")
     public void i_launch_application_url_and_watch() {
         loginPage = new LoginPage(driver);
         driver.get(urlLogin);
@@ -63,8 +63,8 @@ public class ProductcheckoutStepDef {
         logger.info("Username and password entered");
     }
 
-    @When("I click login button and watch")
-    public void i_click_login_button_and_watch() {
+    @When("I click on login button and watch")
+    public void i_click_on_login_button_and_watch() {
 
         loginPage.clickLoginBtn();
         logger.info("Login button clicked");
@@ -75,6 +75,7 @@ public class ProductcheckoutStepDef {
     public void i_should_be_able_to_login_and_see_home_page() {
         logger.info("Checking for logout link");
         loginPage.logoutButtonExist();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
 
     }
     @When("I click on view product link")
@@ -146,8 +147,8 @@ public class ProductcheckoutStepDef {
         logger.info("Place order clicked");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
     }
-    @Then("Payment page will be displayed")
-    public void payment_will_be_displayed() {
+    @Then("Order is placed message should be displayed")
+    public void order_is_placed_message_should_be_displayed() {
         logger.info("Payment page is displayed");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
     }
