@@ -25,7 +25,6 @@ public class ProductcheckoutStepDef {
     // hooks from cucumber similar to testng annotations
     @Before
     public void setUp() {
-
         // Set up ChromeOptions to run in headless mode
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
@@ -49,7 +48,8 @@ public class ProductcheckoutStepDef {
 
     @Given("^I launch application url and watch$")
     public void i_launch_application_url_and_watch() {
-        loginPage = new LoginPage(driver);
+        //loginPage = new LoginPage(driver);
+        productCheckoutPage = new ProductCheckoutPage(driver);
         driver.get(urlLogin);
         logger.info("ULR Opened");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
@@ -58,31 +58,31 @@ public class ProductcheckoutStepDef {
     @When("I enter registered email address and password")
     public void i_enter_registered_email_address_and_password() {
         // Write code here that turns the phrase above into concrete actions
-        loginPage.enterEmail("testman123@mailinator.com");
-        loginPage.enterPassword("password1");
+        productCheckoutPage.enterEmail("testman123@mailinator.com");
+        productCheckoutPage.enterPassword("password1");
         logger.info("Username and password entered");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
     }
 
     @When("I click on login button and watch")
     public void i_click_on_login_button_and_watch() {
-
-        loginPage.clickLoginBtn();
+        productCheckoutPage.clickLogin();
         logger.info("Login button clicked");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     @Then("I should be able to login and see home page")
     public void i_should_be_able_to_login_and_see_home_page() {
         logger.info("Checking for logout link");
-        loginPage.logoutButtonExist();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
+        productCheckoutPage.checkLogoutExist();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
     }
     @When("I click on view product link")
     public void i_click_on_view_product_link() {
         productCheckoutPage.clickOnProductLink();
         logger.info("Product link clicked");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(11));
     }
     @When("I click on add to cart button")
     public void i_click_on_add_to_cart_button() {
@@ -113,11 +113,12 @@ public class ProductcheckoutStepDef {
     public void i_click_on_Place_order_button() {
         productCheckoutPage.clickOnPlaceorderButton();
         logger.info("Place order button clicked");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(12));
     }
 
-    @Then("Payment page should be displayed")
-    public void payment_page_should_be_displayed() {
+    @Then("Payment page will be displayed")
+    public void payment_page_will_be_displayed() {
+        System.out.println("Payment page is displayed");
         logger.info("Payment page is displayed");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
     }

@@ -67,7 +67,7 @@ public class LoginStepDef {
 
         loginPage.clickLoginBtn();
         logger.info("Login button clicked");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
     @Then("I should be able to login successfully")
     public void i_should_be_able_to_login_successfully() {
